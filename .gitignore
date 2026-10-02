@@ -1,0 +1,44 @@
+# Build output
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Rider and Visual Studio
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+
+# .NET
+project.lock.json
+project.assets.json
+artifacts/
+TestResults/
+*.nupkg
+*.snupkg
+packages/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*.old
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment files
+.env
+.env.*
+!.env.example
